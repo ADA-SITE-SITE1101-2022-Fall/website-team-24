@@ -118,6 +118,23 @@ ul {
     color: #FDF5E6;
 }
 
+h3
+{
+    color:cadetblue;
+}
+
+
+h
+{
+    background: #EEE;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-align: left;
+    letter-spacing: 0px;
+    margin: 0;
+    padding: 0;
+}
+
 /* Table */
 
 table 
