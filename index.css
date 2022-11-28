@@ -8,13 +8,36 @@
     src: url(Montserrat-VariableFont_wght.ttf);
 }
 
+.button {
+    border-radius: 0px 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-right: 2%;
+    padding-top: 5px;
+    background-color: #064273;
+    color:#51a0c8;
+  }
+  .button:hover{
+    border-radius: 0px 0px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #1da2d8;
+  }
+
 body 
 {
     background: #b2c5ce;
     font-family: montserrat;
-    /* font-family: 'Helvetica Neue', sans-serif, sans-serif; */
     margin-left: 30px;
     padding: 0;
+}
+
+a {
+    color: #336178;
+}
+
+a:hover {
+    color: #51a0c8;
 }
 
 .mission {
@@ -52,7 +75,10 @@ ol
     font-weight: 500;
     text-decoration: underline;
     margin-left: 18px;
-    color: #336178;
+}
+
+strong {
+    color: #ae485e
 }
 
 ul {
