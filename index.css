@@ -27,9 +27,19 @@ body
     padding: 0;
 }
 
-#img {  
+#logo {  
     float: right; 
-    margin-left: 10px; 
+    margin-left: 20px; 
+}
+
+#ada {  
+    float: left; 
+    margin-right: 40px; 
+}
+
+.contacts {
+    font-family: rockstar;
+    font-size: 20px;
 }
 
 .button {
@@ -43,6 +53,7 @@ body
     color: #a0bbc9;
     text-decoration: solid;
     font-size: 20px;
+    font-family: rockstar;
 }
 
   .button:hover {
@@ -56,6 +67,7 @@ body
     color: black;
     text-decoration: solid;
     font-size: 20px;
+    font-family: rockstar;
 }
 
 a {
