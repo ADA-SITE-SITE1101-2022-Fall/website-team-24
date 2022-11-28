@@ -50,7 +50,7 @@ body
     padding-bottom: 0.3%;
     margin-right: 1%;
     background-color: #336178;
-    color: #a0bbc9;
+    color: #dde5ed;
     text-decoration: solid;
     font-size: 20px;
     font-family: rockstar;
@@ -71,7 +71,7 @@ body
 }
 
 a {
-    color: #336178;
+    color: #651c14;
 }
 
 a:hover {
@@ -89,7 +89,7 @@ h2 {
 }
 
 hr {
-    color: #336178;
+    color: hsl(10, 67%, 26%);
 }
 
 p {
@@ -149,7 +149,7 @@ table
 
 thead th 
 {
-    background: #B0C4DE;
+    background: #336178;
     color: #FFF;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
