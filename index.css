@@ -34,12 +34,7 @@ body
 
 #ada {  
     float: left; 
-    margin-right: 40px; 
-}
-
-.contacts {
-    font-family: rockstar;
-    font-size: 20px;
+    margin-right: 35px; 
 }
 
 .button {
@@ -68,6 +63,11 @@ body
     text-decoration: solid;
     font-size: 20px;
     font-family: rockstar;
+}
+
+.contact {
+    font-size: 16px;
+    margin-left: 205px; 
 }
 
 a {
