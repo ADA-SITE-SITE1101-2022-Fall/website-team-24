@@ -51,7 +51,7 @@ body
     font-family: rockstar;
 }
 
-  .button:hover {
+.button:hover {
     border-radius: 20px 20px;
     padding-left: 2%;
     padding-right: 2%;
@@ -71,11 +71,11 @@ body
 }
 
 a {
-    color: #651c14;
+    color: #ae485e;
 }
 
 a:hover {
-    color: #51a0c8;
+    color: #e7607d;
 }
 
 h1 {
@@ -105,7 +105,7 @@ ol
 }
 
 strong {
-    color: #ae485e
+    color: #ae485e;
 }
 
 ul {
@@ -151,7 +151,8 @@ thead th
 {
     background: #336178;
     color: #FFF;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: rockstar;
+    text-align: center;
     font-size: 16px;
     font-weight: 100;
     letter-spacing: 2px;
@@ -161,16 +162,17 @@ thead th
 tr 
 {
     background: #f4f7f8;
+    text-align: center;
     border-bottom: 1px solid #FFF;
     margin-bottom: 5px;
 }
 
 th, td
 {
-    font-family: "Times New Roman", Times, serif;
+    font-family: montserrat;
+    text-align: center;
     font-size: 18px;
     font-weight: 400;
     padding: 20px;
-    text-align: left;
     width: 33.3333%;
 }
