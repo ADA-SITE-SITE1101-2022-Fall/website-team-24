@@ -52,6 +52,16 @@
 	     <section class="submission">
                 <input type="submit" value="Submit">
              </section>
+              <?php
+              
+              if(isset($_POST['textdata']))
+              {
+              $data=$_POST['textdata'];
+              $fp = fopen('submission.txt', 'a');
+              fwrite($fp, $data);
+              fclose($fp);
+              }
+              ?>
            </form>
         </section>
         <br>
