@@ -18,7 +18,7 @@
             
         </nav>
         <section id="overlay">
-          <form action="submission.html" method="POST">
+          <form action="submission.txt" method="POST">
             <br>
             <h2 style="color:darkblue;"><strong>About You</strong></h2>
             <br>
@@ -44,24 +44,14 @@
                 <input id="doneness" name="doneness" type="range" min="0" max="5" step="0.5">
                 <span>Very Good</span>
               </section>
-	      <section class="extrainfo">
+	            <section class="extrainfo">
                 <label for="extra">Anything else you want to add?</label>
                 <br>
                 <textarea id="extra" name="extra" rows="4" cols="40"> </textarea>
-             </section>
-	     <section class="submission">
+              </section>
+	            <section class="submission">
                 <input type="submit" value="Submit">
-             </section>
-              <?php
-              
-              if(isset($_POST['textdata']))
-              {
-              $data=$_POST['textdata'];
-              $fp = fopen('submission.txt', 'a');
-              fwrite($fp, $data);
-              fclose($fp);
-              }
-              ?>
+              </section>
            </form>
         </section>
         <br>
