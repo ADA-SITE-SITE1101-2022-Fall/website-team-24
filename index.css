@@ -33,8 +33,28 @@ body
 }
 
 #ada {  
-   float: left;
+    float: left;
     margin-right: 35px; 
+}
+
+#rahida {
+    float: left;
+    margin-right: 35px;
+}
+
+#aysel {
+    float: left;
+    margin-right: 35px;
+}
+
+#narmina {
+    float: left;
+    margin-right: 35px;
+}
+
+#aydan {
+    float: left;
+    margin-right: 35px;
 }
 
 .button {
