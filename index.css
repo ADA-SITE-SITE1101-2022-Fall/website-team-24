@@ -104,6 +104,13 @@ a:hover {
     color: #e7607d;
 }
 
+#code {
+    height: 15%;
+    width: 15%;
+    float: right; 
+    margin-left: 20px; 
+    margin-top: 50px;
+}
 h1 {
     font-family: rockstar;
     font-size: 40px;
