@@ -32,6 +32,11 @@ body
     margin-left: 20px; 
 }
 
+#photo {  
+    float: right; 
+    margin-left: 20px; 
+}
+
 #ada {  
     float: left;
     margin-right: 35px; 
