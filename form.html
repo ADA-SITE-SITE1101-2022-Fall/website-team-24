@@ -10,25 +10,25 @@
         <link rel="stylesheet" type="text/css" href="index.css" />
     </head>
     <body>
-        <nav>
-            <a class="button" href="index.html">Home</a>
-            <a class="button" href="table.html">Contribution Table</a>
-            <a class="button" href="hoc.html">Hour of Code</a>
-            <a class="button" href="form.html">Form</a>
-            <a class="button" href="webpage.html">Webpage Progress</a>
-            
-        </nav>
+      <nav>
+        <a class="button" href="index.html">Home</a>
+        <a class="button" href="hoc.html">Hour of Code</a>            
+        <a class="button" href="webpage.html">Webpage Progress</a>
+        <a class="button" href="form.html">Form</a>
+        <a class="button" href="table.html">Contribution Table</a>
+    </nav>
         <section id="overlay">
           <form action="submission.html" method="POST">
             <br>
-            <h2 style="color:darkblue;"><strong>About You</strong></h2>
+            <h1>About You</h1>
+            <hr>
             <br>
 	    <label for="name">What is your name?</label>
-            <input type="text" name="username" id="name" value="example:Araz" required>
-            <br>
+            <input type="text" name="username" id="name" value="example: Araz" required>
+            <br><br>
             <label for="amount">How old are you?</label>
 		    <input id="amount" type="number" step="1" min="1" max="100" name="amount">
-            <br>   
+            <br><br>  
             
             <section class="bun-type">
               <label for="unis">What is your University?</label>
@@ -39,6 +39,7 @@
                   <option value="Other">Other</option>
                 </select>
              </section>
+             <br>
              <section id="like">
                 <label for="doneness">How was our first web-site?</label>
                 <br>
@@ -46,11 +47,13 @@
                 <input id="doneness" name="doneness" type="range" min="0" max="5" step="0.5">
                 <span>Very Good</span>
               </section>
+              <br>
 	            <section class="extrainfo">
                 <label for="extra">Anything else you want to add?</label>
-                <br>
+                <br><br>
                 <textarea id="extra" name="extra" rows="4" cols="40" required > </textarea>
               </section>
+              <br>
 	            <section class="submission">
                 <input type="submit" value="Submit">
               </section>
@@ -58,6 +61,8 @@
         </section>
         <br>
         <br>
-        <img src="https://www.ada.edu.az/frq-templates/assets/images/Ada_logo.svg" height="100" width="100" />
+        <hr>
+        <img src="https://www.ada.edu.az/frq-templates/assets/images/Ada_logo.svg" height="150" width="150" />
+        <img id="logo" src="logo final.PNG" height="150" width="160" />
     </body>
 </html>
